@@ -38,9 +38,10 @@ a {
 
 
 #container {
-  width: 360px;
-
-  margin: 5px auto 0px;
+  width:100%;
+ max-width: 588px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 #profile {
@@ -147,4 +148,12 @@ footer{
     padding: 24px 0;
     text-align: center;
     font-style: 14px;
+}
+@media (min-width:700px){
+    :root{
+        --bg-url:url(/assets/bg-dark2.jpg);
+    }
+    .light{
+        --bg-url:linear-gradient(white,rgb(151, 151, 151));
+    }
 }
