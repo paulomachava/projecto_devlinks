@@ -7,7 +7,7 @@
 
   :root{
     --text-color:white;
-    --bg-url:url(./assets/bg-dark.jpg);
+    --bg-url:linear-gradient(#013646,black);
     --stroke-color:rgba(255, 255, 255, 0.5);
     --surface-color:rgba(255, 255, 255, 0.05);
     --surface-color-hover:rgba(0, 0, 0, 0.02);
@@ -17,7 +17,7 @@
 
 .light{
     --text-color:black;
-    --bg-url:url(./assets/bg-light.jpg);
+    --bg-url:linear-gradient(#D1D1D1,rgb(216, 237, 250));
     --stroke-color:rgba(0, 0, 0, 0.5);
     --surface-color:rgba(0, 0, 0, 0.05);
     --surface-color-hover:rgba(0, 0, 0, 0.02);
@@ -26,7 +26,7 @@
 }  
 body {
   background: var(--bg-url) no-repeat top center/cover;
-height: 100vh;
+
   font-family: "Inter", sans serif;
   color: var(--text-color);
 }
@@ -157,7 +157,7 @@ footer{
     :root{
         --bg-url:linear-gradient(rgb(0, 8, 12),rgb(76, 0, 163));
     }
-    }
+    
     .light{
         --bg-url:linear-gradient(white,rgb(151, 151, 151));
     }
